@@ -57,20 +57,17 @@
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.10.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v3.1.7, rbenv: 3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v3.1.7, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ed25519 (v1.3.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="et-orbi (v1.2.11, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fugit (v1.11.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.2.1, rbenv: 3.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="google-protobuf (v4.29.3, rbenv: 3.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="googleapis-common-protos-types (v1.18.0, rbenv: 3.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="grpc (v1.70.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.7, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v2.1.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.8.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.15.1, rbenv: 3.2.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.13.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.9.1, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kamal (v2.4.0, rbenv: 3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.4, rbenv: 3.2.2) [gem]" level="application" />
@@ -262,6 +259,9 @@
     <entry key="config/cable">
       <value>file://$MODULE_DIR$/config/cable.yml</value>
     </entry>
+    <entry key="config/cache">
+      <value>file://$MODULE_DIR$/config/cache.yml</value>
+    </entry>
     <entry key="config/database">
       <value>file://$MODULE_DIR$/config/database.yml</value>
     </entry>
@@ -283,8 +283,8 @@
     <entry key="config/routes.rb">
       <value>file://$MODULE_DIR$/config/routes.rb</value>
     </entry>
-    <entry key="config/secrets">
-      <value>file://$MODULE_DIR$/config</value>
+    <entry key="config/solid_cache">
+      <value>file://$MODULE_DIR$/config/solid_cache.yml</value>
     </entry>
     <entry key="db">
       <value>file://$MODULE_DIR$/db</value>
@@ -318,6 +318,10 @@
     </entry>
     <entry key="public/stylesheets">
       <value>file://$MODULE_DIR$/public/stylesheets</value>
+    </entry>
+    <entry key="test/mailers/previews">
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
     </entry>
     <entry key="tmp">
       <value>file://$MODULE_DIR$/tmp</value>
